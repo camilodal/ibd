@@ -1,4 +1,3 @@
-
 --Valores para la ciudad
 INSERT INTO ciudad(idciudad,nombre)
 VALUES(1, 'Buenos Aires');
@@ -15,6 +14,18 @@ VALUES(4, 'Nueva York');
 INSERT INTO ciudad(idciudad,nombre)
 VALUES(5, 'Sidney');
 
+--Valores para partidos 
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(996, 1, 1.5,3,2008);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(997, 2, 4.8,5,2008);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(998, 4, 2.7,5,1990);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(999, 5, 0.9,3,2014);
 
 --Valores para empresa
 INSERT into empresa(idempresa,razonsocial)
@@ -45,18 +56,6 @@ VALUES(127,13,'Extreme' ,275, 21,24);
 INSERT INTO modelo(idmodelo,idempresa,nombrem,peso,tensionmin,tensionmax)
 VALUES(128,13,'Graphene' ,300, 21,25);
 
---Valores para partidos 
-INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
-VALUES(996, 1, 1.5,3,2008);
-
-INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
-VALUES(997, 2, 4.8,5,2008);
-
-INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
-VALUES(998, 4, 2.7,5,1990);
-
-INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
-VALUES(999, 5, 0.9,3,2014);
 
 --Valores para raquetas 
 
@@ -110,5 +109,3 @@ VALUES(58,999);
 
 INSERT INTO participa(idraqueta,idpartido)
 VALUES(59,999);
-
-
