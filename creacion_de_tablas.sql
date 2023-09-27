@@ -39,12 +39,9 @@ CREATE table Participa(
   CONSTRAINT fk_raqueta
   FOREIGN KEY (idRaqueta) REFERENCES Raqueta(idRaqueta),
   CONSTRAINT fk_partido
-  FOREIGN KEY (idPartido) REFERENCES Modelo(idModelo)
+  FOREIGN KEY (idPartido) REFERENCES Partido(codigo)
   ); --tiene que estar en Partido.idPartido
   
 
   
-
-
---la suma del tiempo de uso de las raquetas tiene que ser igual a la suma de la duracion de todos los partidos
 
