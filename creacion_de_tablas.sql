@@ -1,5 +1,5 @@
 CREATE TABLE Ciudad(
-  idCiudad INTEGER,
+  idCiudad INTEGER NOT NULL,
   nombre TEXT);
   
 CREATE TABLE Partido(
