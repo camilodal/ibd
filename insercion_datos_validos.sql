@@ -16,6 +16,21 @@ VALUES(5, 'Sidney');
 
 --Valores para partidos 
 INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(991, 3, 5.2,5,1999);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(992, 3, 1.2,3,1998);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(993, 1, 3.5,5,2015);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(994, 3, 1,3,1996);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
+VALUES(995, 1, 2.8,5,2003);
+
+INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
 VALUES(996, 1, 1.5,3,2008);
 
 INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
@@ -26,6 +41,7 @@ VALUES(998, 4, 2.7,5,1990);
 
 INSERT INTO partido(codigo,idciudad,duracion,cantsets,anio)
 VALUES(999, 5, 0.9,3,2014);
+
 
 --Valores para empresa
 INSERT into empresa(idempresa,razonsocial)
