@@ -1,7 +1,7 @@
 --1
 SELECT E."idempresa" as "Id Empresa", E."razonsocial" AS "Nombre empresa"
 FROM modelo M JOIN empresa E ON M."idempresa" = E."idempresa"
-where M."nombrem" = 'Extreme';
+where M."nombre" = 'Extreme';
 
 --2
 SELECT C."nombre" AS "Nombre ciudad", P."codigo" AS "Código partido"
